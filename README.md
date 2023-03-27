@@ -21,6 +21,8 @@ Link: [integraed.surge.sh](https://integraed.surge.sh)
 
 ## 👩‍💻 Pessoas autoras
 
+### Américo Filho
 ### Ana Júlia Santos Lopes
-### Laís Rodrigues Macedo 
 ### Elaine Gomes da Silva
+### Laís Rodrigues Macedo
+### William Andrade Leandro
