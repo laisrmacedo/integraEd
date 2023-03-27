@@ -2,8 +2,8 @@ import styled from "styled-components";
 import imgSignupPage from "../assets/img-signup-page.png"
 import logo from "../assets/logo.png"
 import buttonSignup from "../assets/button-signup.png"
+import { goToBuilding, goToHome, goToSignup } from "../router/coordinator";
 import { useNavigate } from "react-router-dom";
-import { goToBuilding, goToHome } from "../router/coordinator";
 
 
 const Container = styled.main`
@@ -61,6 +61,20 @@ const Container = styled.main`
       font-size: 18px;
     }
 
+    h4{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      margin: 30px 0;
+      text-align: center;
+      z-index: 2;
+      span{
+        color: rgba(244, 116, 88, 1);
+        cursor: pointer;
+      }
+    }
+
       @media screen and (max-width: 428px){
         background-color: #FFF;
         width: 80%;
@@ -114,6 +128,7 @@ const Container = styled.main`
     img{
       object-fit: cover;
       width: 100%;
+
       @media screen and (max-width: 428px){
         width: 70%;
         margin: 0 auto;
@@ -151,9 +166,9 @@ const Logo = styled.span`
   }
 `
 
-export const Signup = () => {
+export const Login = () => {
   const navigate = useNavigate()
-
+  
   return (
     <Container>
       <div className="box">
@@ -164,12 +179,13 @@ export const Signup = () => {
               <p>IntegraEd</p>
             </Logo>
           </div>
-          <h2>Cadastre-se</h2>
+          <h2>Faça Login</h2>
           <p>Qual o seu email?</p>
           <input></input>
           <p>Senha</p>
           <input></input>
           <img src={buttonSignup} onClick={() => goToBuilding(navigate)}/>
+          <h4>Ainda não tem uma conta? <span onClick={() => goToSignup(navigate)}>Cadastre-se</span></h4>
         </span>
       </div>
       <div className="color"></div>
