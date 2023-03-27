@@ -4,8 +4,14 @@
 
 Nosso objetivo é fornecer uma plataforma online que centralize, em um único ambiente, o cadastro de incubadoras, edutechs, parceiros e especialistas com informações precisas e atualizadas sobre seus produtos e serviços. Na outra via, oferecer soluções que atendam às necessidades de estudantes, profissionais empreendedores e qualquer outra pessoa que esteja buscando por algum tipo de orientação ou conhecimento. 
 
-## 📌 Como acessar a plataforma?
+## 🚧 Protótipo da Plataforma
 Link: [integraed.surge.sh](https://integraed.surge.sh)
+
+## 📹 Video Pitch
+Link: [Canal IntegraEd](https://www.youtube.com/watch?v=QouVa8CWONA)
+
+## 🧩 Layout no Figma
+Link: [Figma](https://www.figma.com/file/E7oiT2AaKbAQnDVFWvc2SI/HackRio?node-id=0-1&t=cQGu1di1GROT4Afm-0)
 
 
 ## 🛠 Tecnologias Utilizadas
@@ -16,9 +22,13 @@ Link: [integraed.surge.sh](https://integraed.surge.sh)
 - Renderização condicional;
 - React Router;
 - Design Systems;
+- Figma;
+
 
 ## 👩‍💻 Pessoas autoras
 
-### Ana Júlia Santos Lopes
-### Laís Rodrigues Macedo 
+### Américo Filho
+### Ana Júlia Santos Lopes 
 ### Elaine Gomes da Silvaup
+### Laís Rodrigues Macedo
+### William Andrade Leandro
