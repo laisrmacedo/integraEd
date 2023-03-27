@@ -21,4 +21,4 @@ Link: [integraed.surge.sh](https://integraed.surge.sh)
 
 ### Ana Júlia Santos Lopes
 ### Laís Rodrigues Macedo 
-### Elaine Gomes da Silva
+### Elaine Gomes da Silvaup
